@@ -1,14 +1,73 @@
+.search-nav {
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+
+.search-nav li {
+	margin: 0 10px;
+}
+
+.login-panel {
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 60px;
+}
+
+.login-panel p {
+	display: inline-block;
+	margin: 0 10px;
+}
 
 img {
 	position: relative;
 	height: 100%;
-	width: auto;
+	width: 100%;
 }
 
 .card {
-	height: 300px;
+	height: auto;
+	background-color: transparent;
+	border-style: none;
+}
+
+.card-deck {
+	background-color: grey;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 footer {
 	background-color: blue;
+	height: auto;
+}
+
+#languages {
+	top: 30px;
+	position: relative;
+	float: right;
+}
+
+.tab-content {
+	position: relative;
+	top: 30px;
+	height: 400px;
+}
+
+.body-nav {
+	font-size: 1.5em;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+}
+
+.icon-sm {
+	height: 15px;
+	width: 15px;
 }

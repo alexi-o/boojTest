@@ -18,10 +18,15 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-    <a class="navbar-brand" href="#"><img src="Assets/SVGs/TEN-logo.svg" /></a>
+    <a class="navbar-brand col-lg-3" href="#"><img src="Assets/SVGs/TEN-logo.svg" /></a>
 
     <div class="collapse navbar-collapse" id="headerNav">
-        <ul class="nav navbar-nav">
+    <div class="login-panel">
+        <p><img class="icon-sm" src="Assets/SVGs/contact.svg" /> Contact</p>
+        <p><img class="icon-sm" src="Assets/SVGs/account.svg" /> Account</p>
+    </div>
+    <div class="header-nav">
+        <ul class="nav navbar-nav search-nav">
             <li class="nav-item">
                 <a class="nav-link" href="#">SEARCH</a>
             </li>
@@ -35,12 +40,13 @@
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
         </ul>
+        </div>
     </div>
 </nav>
 <!--End Title Nav-->
 <!--Begin Search Nav-->
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <form class="form-inline">
+  <form class="form-inline col-lg-6">
     <input class="form-control mr-sm-2" type="text" placeholder="Search">
     <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
   </form>
@@ -59,34 +65,34 @@
 <!--End Search Nav-->
 <!-- Start Hero Section -->
 <div class="card-deck">
-  <div class="card">
+  <div class="card col-lg-3 col-centered">
       <img src="Assets/Realtor Image/saramortensun.jpg" />
   </div>
-  <div class="card">
+  <div class="card col-lg-3 col-centered">
     <div class="card-block">
       <h4 class="card-title">Jane Smith</h4>
       <h5>REALTOR</h5>
     <button class="btn btn-primary">Contact Me</button>
         <ul class="nav">
           <li class="nav-item">
-            <img src="Assets/SVGs/twitter.svg" />   
+            <img class="icon" src="Assets/SVGs/twitter.svg" />   
           </li>
           <li class="nav-item">
-            <img src="Assets/SVGs/facebook.svg" />
+            <img class="icon" src="Assets/SVGs/facebook.svg" />
           </li>
           <li class="nav-item">
-            <img src="Assets/SVGs/instagram.svg" />
+            <img class="icon" src="Assets/SVGs/instagram.svg" />
           </li>
           <li class="nav-item">
-            <img src="Assets/SVGs/linkedin.svg" />
+            <img class="icon" src="Assets/SVGs/linkedin.svg" />
           </li>
           <li class="nav-item">
-            <img src="Assets/SVGs/youtube.svg" />
+            <img class="icon" src="Assets/SVGs/youtube.svg" />
           </li>
         </ul>
     </div>
   </div>
-  <div class="card">
+  <div class="card col-lg-3 col-centered">
     <div class="card-block">
         <ul>
             <li>530.830.2150</li>
@@ -101,18 +107,19 @@
 <!-- Content w/ nav -->
 <div class="container">
     <ul class="nav nav-tabs justify-content-center">
-      <li class="col-md-3"><a data-toggle="tab" href="#about-me">About Me</a></li>
-      <li class="col-md-3"><a data-toggle="tab" href="#my-listings">My Listings</a></li>
-      <li class="col-md-3"><a data-toggle="tab" href="#my-solds">My Solds</a></li>
-      <li class="col-md-3"><a data-toggle="tab" href="#testimonials">Testimonials</a></li>
+      <li class="body-nav col-md-3"><a data-toggle="tab" href="#about-me">About Me</a></li>
+      <li class="body-nav col-md-3"><a data-toggle="tab" href="#my-listings">My Listings</a></li>
+      <li class="body-nav col-md-3"><a data-toggle="tab" href="#my-solds">My Solds</a></li>
+      <li class="body-nav col-md-3"><a data-toggle="tab" href="#testimonials">Testimonials</a></li>
     </ul>
 
     <div class="tab-content">
-      <div id="about-me" class="tab-pane fade in active row">
+      <div id="about-me" class="tab-pane fade in active">
         <div class="col-lg-8 d-inline-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo rerum, magnam quos est possimus, fugit dolorum obcaecati, numquam ea officia ipsum itaque recusandae beatae magni, incidunt minima explicabo? Saepe!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis pariatur eos incidunt voluptas aliquid dolores eveniet nihil praesentium, est temporibus officia aperiam accusantium suscipit adipisci, harum at. Ipsam, accusamus.</p>
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
         </div>
-        <div class="col-lg-3 d-inline-block">
+        <div class="col-lg-3 d-inline-block" id="languages">
             <h3>LANGUAGE</h3>
                 <p>Dutch, French, Spanish</p>
             <h3>DESIGNATIONS</h3>
@@ -121,9 +128,10 @@
       </div>
       <div id="my-listings" class="tab-pane fade">
         <div class="col-lg-8 d-inline-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo rerum, magnam quos est possimus, fugit dolorum obcaecati, numquam ea officia ipsum itaque recusandae beatae magni, incidunt minima explicabo? Saepe!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis pariatur eos incidunt voluptas aliquid dolores eveniet nihil praesentium, est temporibus officia aperiam accusantium suscipit adipisci, harum at. Ipsam, accusamus.</p>
+        <h2>My Listings</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
         </div>
-        <div class="col-lg-3 d-inline-block">
+        <div class="col-lg-3 d-inline-block" id="languages">
             <h3>LANGUAGE</h3>
                 <p>Dutch, French, Spanish</p>
             <h3>DESIGNATIONS</h3>
@@ -132,9 +140,10 @@
       </div>
       <div id="my-solds" class="tab-pane fade">
         <div class="col-lg-8 d-inline-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo rerum, magnam quos est possimus, fugit dolorum obcaecati, numquam ea officia ipsum itaque recusandae beatae magni, incidunt minima explicabo? Saepe!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis pariatur eos incidunt voluptas aliquid dolores eveniet nihil praesentium, est temporibus officia aperiam accusantium suscipit adipisci, harum at. Ipsam, accusamus.</p>
+        <h2>My Solds</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
         </div>
-        <div class="col-lg-3 d-inline-block">
+        <div class="col-lg-3 d-inline-block" id="languages">
             <h3>LANGUAGE</h3>
                 <p>Dutch, French, Spanish</p>
             <h3>DESIGNATIONS</h3>
@@ -143,9 +152,10 @@
       </div>
       <div id="testimonials" class="tab-pane fade">
         <div class="col-lg-8 d-inline-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo illo rerum, magnam quos est possimus, fugit dolorum obcaecati, numquam ea officia ipsum itaque recusandae beatae magni, incidunt minima explicabo? Saepe!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis pariatur eos incidunt voluptas aliquid dolores eveniet nihil praesentium, est temporibus officia aperiam accusantium suscipit adipisci, harum at. Ipsam, accusamus.</p>
+        <h2>Testimonials</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
         </div>
-        <div class="col-lg-3 d-inline-block">
+        <div class="col-lg-3 d-inline-block" id="languages">
             <h3>LANGUAGE</h3>
                 <p>Dutch, French, Spanish</p>
             <h3>DESIGNATIONS</h3>
@@ -157,36 +167,36 @@
 <!-- End Content w/ nav -->
 <!-- Start Footer -->
 <footer class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-6 col-md-6 col-sm-6">
         <p>1-800-234-4567</p>
         <p>5678 Main Street, Denver, CO 80123</p>
-    </div>
-    <ul class="nav col-lg-4">
+    <ul class="nav">
           <li class="nav-item col-lg-1">
-            <img src="Assets/SVGs/twitter.svg" />   
+            <img class="icon" src="Assets/SVGs/twitter.svg" />   
           </li>
           <li class="nav-item col-lg-1">
-            <img src="Assets/SVGs/facebook.svg" />
+            <img class="icon" src="Assets/SVGs/facebook.svg" />
           </li>
           <li class="nav-item col-lg-1">
-            <img src="Assets/SVGs/instagram.svg" />
+            <img class="icon" src="Assets/SVGs/instagram.svg" />
           </li>
           <li class="nav-item col-lg-1">
-            <img src="Assets/SVGs/linkedin.svg" />
+            <img class="icon" src="Assets/SVGs/linkedin.svg" />
           </li>
           <li class="nav-item col-lg-1">
-            <img src="Assets/SVGs/youtube.svg" />
+            <img class="icon" src="Assets/SVGs/youtube.svg" />
           </li>
         </ul>
-    <ul class="nav">
-        <li><a href="#">Site Map</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-    </ul>
+        </div>
+    <div class="container col-lg-4 col-md-4 col-md-4">        
+        <ul class="nav">
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
     <p>2016 TEN Realty. All Rights Reserved.</p>
-    <div class="container">
-        <img src="Assets/SVGs/realtor.svg" />
-        <img src="Assets/SVGs/office.svg" />
+        <img class="icon" src="Assets/SVGs/realtor.svg" />
+        <img class="icon" src="Assets/SVGs/office.svg" />
     </div>
 </footer>
 <!-- End Footer -->
