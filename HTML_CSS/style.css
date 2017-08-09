@@ -2,4 +2,13 @@
 img {
 	position: relative;
 	height: 100%;
+	width: auto;
+}
+
+.card {
+	height: 300px;
+}
+
+footer {
+	background-color: blue;
 }
