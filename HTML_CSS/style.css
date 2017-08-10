@@ -1,49 +1,95 @@
-.search-nav {
+.header-nav {
 	position: absolute;
 	bottom: 0;
 	right: 50px;
 }
 
-.search-nav li {
-	margin: 0 10px;
+.header-nav li {
+	margin: 0 20px;
+}
+
+a.nav-link {
+	color: white;
+	text-decoration: underline;
 }
 
 .login-panel {
-	text-align: center;
 	position: absolute;
 	top: 10px;
-	right: 60px;
+	right: 120px;
 }
 
 .login-panel p {
-	display: inline-block;
 	margin: 0 10px;
 }
 
-img {
-	position: relative;
-	height: 100%;
-	width: 100%;
-}
-
-.card {
-	height: auto;
-	background-color: transparent;
-	border-style: none;
-}
-
-.card-deck {
+.searchbar {
 	background-color: grey;
 }
 
-.col-centered{
+
+button {
+	background-color: #237377;
+	color: white;
+}
+
+.body-nav {
+	font-size: 1.1em;
+}
+
+.icon {
+	height: 30px;
+	width: 30px;
+	fill: white;
+}
+
+.icon-sm {
+	height: 15px;
+	width: 15px;
+}
+
+.align-middle {
+	position: relative;
+	top: 10%;
+}
+
+.col-centered {
     float: none;
     margin: 0 auto;
 }
 
-footer {
-	background-color: blue;
+.card {
+	background-color: transparent;
+	border-style: none;
+}
+.card-block li {
+	list-style: none;
+	margin: 10px 0;
+}
+
+.card-deck {
+	background-color: #d3d3d3;
 	height: auto;
+}
+
+
+.tab-content {
+	position: relative;
+	top: 30px;
+	height: 100%;
+}
+
+footer {
+	background-color: #2399a6;
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+#svg1 {
+	fill: white;
 }
 
 #languages {
@@ -52,22 +98,26 @@ footer {
 	float: right;
 }
 
-.tab-content {
-	position: relative;
-	top: 30px;
-	height: 400px;
+.footer-nav li {
+	margin: 0 0 0 15px;
+	font-size: 1em;
+	color: white;
+	text-decoration: underline;
 }
 
-.body-nav {
-	font-size: 1.5em;
+@media (min-width: 768px) {
+	.card-block {
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 }
 
-.icon {
-	height: 30px;
-	width: 30px;
-}
-
-.icon-sm {
-	height: 15px;
-	width: 15px;
+@media (max-width: 767px) {
+    .text-center-xs {
+        text-align: center;
+		}
+    .float-right {
+    	float: none;
+    }
 }

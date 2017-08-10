@@ -12,52 +12,49 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
+
 <body>
 <!--Begin Title Nav-->
-<nav class="navbar navbar-toggleable-sm navbar-light">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    <a class="navbar-brand col-lg-3" href="#"><img src="Assets/SVGs/TEN-logo.svg" /></a>
-
-    <div class="collapse navbar-collapse" id="headerNav">
-    <div class="login-panel">
-        <p><img class="icon-sm" src="Assets/SVGs/contact.svg" /> Contact</p>
-        <p><img class="icon-sm" src="Assets/SVGs/account.svg" /> Account</p>
-    </div>
-    <div class="header-nav">
-        <ul class="nav navbar-nav search-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">SEARCH</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">COMMUNITIES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
-            </li>
-        </ul>
-        </div>
-    </div>
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <img class="navbar-brand col-lg-4 col-md-4 hidden-sm-down" src="Assets/SVGs/TEN-logo.svg" />
+  <img class="hidden-md-up" src="Assets/SVGs/TEN-logo-mark.svg" />
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav header-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">SEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">COMMUNITIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+    </ul>
+  </div>
 </nav>
 <!--End Title Nav-->
+
+
 <!--Begin Search Nav-->
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-  <form class="form-inline col-lg-6">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+<nav class="navbar navbar-toggleable-md bg-faded searchbar">
+  <form class="form-inline col-lg-5">
+    <input class="form-control col-lg-6 col-md-4 col-sm-4 offset-lg-3" type="text" placeholder="Address, City, Zip, or MLS#">
+    <button class="btn my-2 col-lg-2 col-md-2 col-sm-2" type="submit">Search</button>
   </form>
-<ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+<ul class="navbar-nav col-lg-6 hidden-sm-down">
+      <li class="nav-item col-lg-4">
         <a class="nav-link" href="#">NEW LISTINGS</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col-lg-4">
         <a class="nav-link" href="#">OPEN HOUSES</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col-lg-4">
         <a class="nav-link" href="#">MAP SEARCH</a>
       </li>
     </ul>
@@ -65,61 +62,61 @@
 <!--End Search Nav-->
 <!-- Start Hero Section -->
 <div class="card-deck">
-  <div class="card col-lg-3 col-centered">
-      <img src="Assets/Realtor Image/saramortensun.jpg" />
+  <div class="card col-lg-3 col-md-5 col-sm-4 col-centered">
+      <img class="img-fluid" src="Assets/Realtor Image/saramortensun.jpg" />
   </div>
-  <div class="card col-lg-3 col-centered">
-    <div class="card-block">
+  <div class="card col-lg-3 col-md-4 col-sm-4 col-centered">
+    <div class="card-block align-middle">
       <h4 class="card-title">Jane Smith</h4>
       <h5>REALTOR</h5>
-    <button class="btn btn-primary">Contact Me</button>
-        <ul class="nav">
-          <li class="nav-item">
+    <button class="btn col-md-12">Contact Me</button></br></br>
+        <div class="row">
+          <p class="d-inline-block ml-4 mr-3">
             <img class="icon" src="Assets/SVGs/twitter.svg" />   
-          </li>
-          <li class="nav-item">
+          </p>
+          <p class="d-inline-block ml-3 mr-3">
             <img class="icon" src="Assets/SVGs/facebook.svg" />
-          </li>
-          <li class="nav-item">
+          </p>
+          <p class="d-inline-block ml-3 mr-3">
             <img class="icon" src="Assets/SVGs/instagram.svg" />
-          </li>
-          <li class="nav-item">
+          </p>
+          <p class="d-inline-block ml-3 mr-3">
             <img class="icon" src="Assets/SVGs/linkedin.svg" />
-          </li>
-          <li class="nav-item">
+          </p>
+          <p class="d-inline-block ml-3 mr-1">
             <img class="icon" src="Assets/SVGs/youtube.svg" />
-          </li>
-        </ul>
+          </p>
+        </div>
     </div>
   </div>
-  <div class="card col-lg-3 col-centered">
-    <div class="card-block">
-        <ul>
-            <li>530.830.2150</li>
-            <li>Visit My Website</li>
-            <li>Denver Office</li>
-            <li>eNewsletter Sign Up</li>
+  <div class="card col-lg-3 col-md-4 col-sm-4 col-centered">
+    <div class="card-block align-middle">
+        <ul class="col-lg-12 col-md-12 col-sm-12">
+            <li><img class="icon-sm" src="Assets/SVGs/contact.svg" /> 530.830.2150</li>
+            <li><a href="#"><img class="icon-sm" src="Assets/SVGs/website.svg" /> Visit My Website</a></li>
+            <li><a href="#"><img class="icon-sm" src="Assets/SVGs/office.svg" /> Denver Office</a></li>
+            <li><a href="#"><img class="icon-sm" src="Assets/SVGs/enewsletter.svg" /> eNewsletter Sign Up</a></li>
         </ul>
     </div>
   </div>
 </div>
 <!-- End Hero Section -->
 <!-- Content w/ nav -->
-<div class="container">
+<div class="container col-xs-10">
     <ul class="nav nav-tabs justify-content-center">
-      <li class="body-nav col-md-3"><a data-toggle="tab" href="#about-me">About Me</a></li>
-      <li class="body-nav col-md-3"><a data-toggle="tab" href="#my-listings">My Listings</a></li>
-      <li class="body-nav col-md-3"><a data-toggle="tab" href="#my-solds">My Solds</a></li>
-      <li class="body-nav col-md-3"><a data-toggle="tab" href="#testimonials">Testimonials</a></li>
+      <li class="body-nav col-md-2"><a data-toggle="tab" href="#about-me">About Me</a></li>
+      <li class="body-nav col-md-2"><a data-toggle="tab" href="#my-listings">My Listings</a></li>
+      <li class="body-nav col-md-2"><a data-toggle="tab" href="#my-solds">My Solds</a></li>
+      <li class="body-nav col-md-2"><a data-toggle="tab" href="#testimonials">Testimonials</a></li>
     </ul>
 
-    <div class="tab-content">
-      <div id="about-me" class="tab-pane fade in active">
+    <div class="tab-content mb-4">
+      <div id="about-me" class="tab-pane fade active show">
         <div class="col-lg-8 d-inline-block">
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
         </div>
-        <div class="col-lg-3 d-inline-block" id="languages">
+        <div class="col-lg-3 d-inline-block  mb-4" id="languages">
             <h3>LANGUAGE</h3>
                 <p>Dutch, French, Spanish</p>
             <h3>DESIGNATIONS</h3>
@@ -162,46 +159,56 @@
                 <p>CRS, GRI, CNE</p>
         </div>
       </div>
+      <div class="clearfix"></div>
     </div>
+    <div class="clearfix"></div>
 </div>
+
 <!-- End Content w/ nav -->
+
+
 <!-- Start Footer -->
-<footer class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6">
-        <p>1-800-234-4567</p>
-        <p>5678 Main Street, Denver, CO 80123</p>
-    <ul class="nav">
-          <li class="nav-item col-lg-1">
-            <img class="icon" src="Assets/SVGs/twitter.svg" />   
-          </li>
-          <li class="nav-item col-lg-1">
-            <img class="icon" src="Assets/SVGs/facebook.svg" />
-          </li>
-          <li class="nav-item col-lg-1">
-            <img class="icon" src="Assets/SVGs/instagram.svg" />
-          </li>
-          <li class="nav-item col-lg-1">
-            <img class="icon" src="Assets/SVGs/linkedin.svg" />
-          </li>
-          <li class="nav-item col-lg-1">
-            <img class="icon" src="Assets/SVGs/youtube.svg" />
-          </li>
-        </ul>
+<footer>
+    <div class="row col-xs-8 col-lg-10 col-centered">
+        <div class="col-lg-5 col-md-4 col-sm-4 mb-4 ml-4 mt-4">
+            <p class="text-center-xs">1-800-234-4567</p>
+            <p>5678 Main Street, Denver, CO 80123</p>
+            <ul class="nav row">
+                  <li class="nav-item col-xs-1 mx-3">
+                    <img class="icon" src="Assets/SVGs/twitter.svg" />   
+                  </li>
+                  <li class="nav-item col-xs-1 mx-3">
+                    <img class="icon" src="Assets/SVGs/facebook.svg" />
+                  </li>
+                  <li class="nav-item col-xs-1 mx-3">
+                    <img class="icon" src="Assets/SVGs/instagram.svg" />
+                  </li>
+                  <li class="nav-item col-xs-1 mx-3">
+                    <img class="icon" src="Assets/SVGs/linkedin.svg" />
+                  </li>
+                  <li class="nav-item col-xs-1 mx-3">
+                    <img class="icon" src="Assets/SVGs/youtube.svg" />
+                  </li>
+                </ul>
         </div>
-    <div class="container col-lg-4 col-md-4 col-md-4">        
-        <ul class="nav">
-            <li><a href="#">Site Map</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-        </ul>
-    <p>2016 TEN Realty. All Rights Reserved.</p>
-        <img class="icon" src="Assets/SVGs/realtor.svg" />
-        <img class="icon" src="Assets/SVGs/office.svg" />
+        <div class="col-lg-6 col-md-4 col-xs-12 pull-right mt-4">        
+            <ul class="nav footer-nav float-right">
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul></br>
+            <p class="text-right">2016 TEN Realty. All Rights Reserved.</p>
+            <span class="float-right">
+                <object class="svg" data="Assets/SVGs/equal-housing.svg" type="image/svg+xml"></object>
+                <object class="svg" data="Assets/SVGs/realtor.svg" type="image/svg+xml"></object>
+            </span>
+        </div>
     </div>
 </footer>
 <!-- End Footer -->
+
 <script src="script.js"></script>
-<!-- jQuery,  bootstrap js -->
+
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
