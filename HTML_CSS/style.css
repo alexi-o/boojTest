@@ -1,123 +1,15 @@
-.header-nav {
+.top-nav {
 	position: absolute;
 	bottom: 0;
-	right: 50px;
 }
-
-.header-nav li {
-	margin: 0 20px;
-}
-
-a.nav-link {
-	color: white;
-	text-decoration: underline;
-}
-
-.login-panel {
-	position: absolute;
-	top: 10px;
-	right: 120px;
-}
-
-.login-panel p {
-	margin: 0 10px;
-}
-
-.searchbar {
-	background-color: grey;
-}
-
-
-button {
-	background-color: #237377;
-	color: white;
-}
-
-.body-nav {
-	font-size: 1.1em;
-}
-
-.icon {
-	height: 30px;
-	width: 30px;
-	fill: white;
-}
-
-.icon-sm {
-	height: 15px;
-	width: 15px;
-}
-
-.align-middle {
-	position: relative;
-	top: 10%;
-}
-
-.col-centered {
-    float: none;
-    margin: 0 auto;
-}
-
-.card {
-	background-color: transparent;
-	border-style: none;
-}
-.card-block li {
+li {
 	list-style: none;
-	margin: 10px 0;
-}
-
-.card-deck {
-	background-color: #d3d3d3;
-	height: auto;
-}
-
-
-.tab-content {
-	position: relative;
-	top: 30px;
-	height: 100%;
 }
 
 footer {
-	background-color: #2399a6;
-	color: white;
+	background-color: blue;
 }
 
 footer a {
-	color: white;
-}
-
-#svg1 {
-	fill: white;
-}
-
-#languages {
-	top: 30px;
-	position: relative;
-	float: right;
-}
-
-.footer-nav li {
-	margin: 0 0 0 15px;
-	font-size: 1em;
-	color: white;
 	text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-	.card-block {
-	position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-}
-
-@media (max-width: 767px) {
-    .text-center-xs {
-        text-align: center;
-		}
-    .float-right {
-    	float: none;
-    }
 }
