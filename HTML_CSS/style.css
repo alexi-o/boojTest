@@ -1,12 +1,60 @@
+
+svg {
+	fill: white;
+}
+
+.black {
+	color: black;
+}
+
+.login-icons {
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+div.icon {
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+}
+.icon img {
+	width: 15%;
+}
+.caption {
+		margin-top: 2px;
+    display: block;
+    font-size: 15px;
+}
+
 .top-nav {
 	position: absolute;
 	bottom: 0;
 }
+
+a.nav-link {
+	font-size: 18px;
+	color: black;
+}
+
 li {
 	list-style: none;
 	font-size: .9rem;
 }
 
+.search-links {
+	width: 100%;
+}
+
+.search-input {
+	height: 40px;
+	border-radius: 3px
+}
+
+.search-btn {
+	height: 40px;
+	border-radius: 3px
+}
 
 select {
 	width: 100%;
@@ -23,20 +71,20 @@ select {
 }
 
 .nav-tabs li.active a, .nav-tabs li a:hover { 
-	color: #4285F4;
+	color: #237377;
 	text-decoration: none;
 }
 
 .nav-tabs li a::after { 
 	content: ""; 
-	background: #4285F4; 
+	background: #237377; 
 	height: 2px; 
 	position: absolute; 
 	width: 100%; 
 	left: 0px; 
 	bottom: -1px; 
 	transition: all 400ms ease 0s; 
-	transform: scale(0); 
+	transform: scale(0);
 }
 
 .nav-tabs li.active a::after, .nav-tabs li:hover a::after { 
@@ -61,6 +109,7 @@ select {
 
 .footer {
 	color: white;
+	background-color: #2399a6;
 }
 
 .footer img {
@@ -69,10 +118,7 @@ select {
 
 .footer a {
 	text-decoration: underline;
-}
-
-button {
-	padding-right: 0;
+	color: white;
 }
 
 .contact-info{
@@ -84,30 +130,7 @@ button {
 }
 
 
-::-webkit-input-placeholder {
-   font-size: 21px;
-}
-
-:-moz-placeholder {
-      font-size: 25px;
-}
-
-::-moz-placeholder {
-      font-size: 25px;
-}
-
-::-webkit-input-placeholder {
-   font-size: 19px!important;
-}
-
-:-moz-placeholder { 
-      font-size: 13px!important;
-}
-::-moz-placeholder {
-      font-size: 13px!important;
-}
-
-@media (max-width: 459px) {
+@media (max-width: 575px) {
 	.footer-contact p {
 		text-align: center;
 }
@@ -115,14 +138,20 @@ button {
 		position: relative;
 		text-align: center;
 }
-	.form-control {
-		width: 70%;
+	.search-input {
+		width: 65%;
 		border-radius: 20px 0 0 20px;
+		margin: 0;
 	}
-	.btn {
-		width: 30%;
+	.search-btn {
+		width: 33%;
 		border-radius: 0 20px 20px 0;
 		padding: 7px;
+		left: -5px;
+}
+	.header-logo-sm {
+		position: relative;
+		right: 150px;
 	}
 }
 
