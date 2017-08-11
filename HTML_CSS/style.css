@@ -13,3 +13,18 @@ footer {
 footer a {
 	text-decoration: underline;
 }
+
+button {
+	padding-right: 0;
+}
+
+.form-fix {
+	left: -30px;
+}
+
+@media (min-width: 787px) {
+	.fix-gutter > [class*='col-'] {
+    padding-right: 0;
+    padding-left: 1;
+	}
+}
