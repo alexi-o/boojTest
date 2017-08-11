@@ -7,20 +7,18 @@ svg {
 	color: black;
 }
 
-.login-icons {
+.icons {
 	position: absolute;
-	top: 5px;
-	right: 0;
+	top: 0;
+	right: 2%;
 }
 
 div.icon {
     display: inline-block;
     text-align: center;
-    width: 110px;
+    width: 60px;
 }
-.icon img {
-	width: 15%;
-}
+
 .caption {
 	margin-top: 2px;
     display: block;
@@ -157,10 +155,24 @@ select {
 	}
 }
 
+@media (max-width: 1000px) {
+	.icons {
+		right: 15%;
+	}
+}
+
 @media (min-width: 787px) {
 	.fix-gutter > [class*='col-'] {
     padding-right: 1;
     padding-left: 1;
+	}
+}
+
+@media (min-width: 1000px) {
+	.login-icons {
+		position: absolute;
+		top: 5px;
+		right: 0;
 	}
 }
 
