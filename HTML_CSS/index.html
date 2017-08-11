@@ -1,146 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Start Header -->
-    <div class="container-fluid">
-      <nav class="navbar navbar-toggleable-md navbar-light">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <!-- Start Header -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-toggleable-md navbar-light">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
       <img class="navbar-brand col-sm-3 hidden-xs-down" src="Assets/SVGs/TEN-logo.svg" />
       <img class="hidden-sm-up" src="Assets/SVGs/TEN-logo-mark.svg" />
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav header-nav top-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">SEARCH</a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav header-nav top-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">SEARCH</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">COMMUNITIES</a>
+            <a class="nav-link" href="#">COMMUNITIES</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#">SERVICES</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link" href="#">ABOUT US</a>
           </li>
-      </ul>
-  </div>
-</nav>
-</div>
-<!-- End Header -->
-
-<!-- Start Search Bar/Nav -->
-<div class="container-fluid bg-faded">
-  <div class="container">
-    <nav class="navbar navbar-toggleable-md search-nav">
-      <form class="form-inline col-xs-1 col-sm-12 form-fix">
-        <input class="form-control col-sm-4" type="text" placeholder="Address, City, Zip, or MLS#">
-        <button class="btn my-2 col-sm-3 ml-4" type="submit">Search</button>
-      </form>
+        </ul>
+      </div>
     </nav>
   </div>
-</div>
-<!-- End Search Bar/Nav -->
+  <!-- End Header -->
 
-<!-- Start Hero Section -->
-<div class="container-fluid bg-info">
+  <!-- Start Search Bar/Nav -->
+<!--   <div class="container-fluid " style="background-color: #4B515D">
     <div class="container">
-        <div class="row fix-gutter d-flex align-items-center">
-          <div class="col-xs-3 col-sm-4 col-lg-3">
-            <img class="img-fluid" src="./Assets/Realtor Image/saramortensun.jpg" />
-          </div>
-          <div class="container-fluid col-sm-4 col-lg-3">
-              <h1 class="mb-md-4">Jane Smith</h1>
-              <h4>Realtor</h4>
-              <button class="btn form-control btn-primary mt-md-4">Contact Me</button>
-                <div class="text-center d-flex justify-content-between mt-md-4">
-                  <img class="" src="Assets/SVGs/twitter.svg" />   
-                  <img class="" src="Assets/SVGs/facebook.svg" />
-                  <img class="" src="Assets/SVGs/instagram.svg" />
-                  <img class="" src="Assets/SVGs/linkedin.svg" />
-                  <img class="" src="Assets/SVGs/youtube.svg" />
-                </div>
-          </div>
-          <div class="contact-info col-sm-4 col-lg-3">
-            <p><img src="./Assets/SVGs/contact.svg" alt=""> 530.830.2150<br></p>
-            <p><img src="./Assets/SVGs/website.svg" alt=""> Visit my website<br></p>
-            <p><img src="./Assets/SVGs/office.svg" alt=""> Denver office<br></p>
-            <p><img src="./Assets/SVGs/enewsletter.svg" alt="">  eNesletter Sign Up<br></p>
+      <nav class="navbar navbar-toggleable-md search-nav">
+        <form class="form-inline form-fix">
+          <input class="form-control" type="text" placeholder="Address, City, Zip, or MLS#">
+          <button class="btn my-2 col-sm-2 ml-4" type="submit">Search</button>
+        </form>
+        <a href="#">NEW LISTINGS</a>
+        <a href="#">OPEN HOUSES</a>
+        <a href="#">MAP SEARCH</a>
+      </nav>
+    </div>
+  </div> -->
+  <div class="container-fluid" style="background-color: #4B515D">
+  <div class="container">
+        <form class="form-inline py-3">
+          <input class="form-control col-sm-3 input-lg" type="text" placeholder="Address, City, Zip, or MLS#">
+          <button class="btn ml-sm-4 col-sm-2" type="submit"><span class="hidden-xs-down">Search</span><span class="hidden-sm-up"><img src="Assets/SVGs/search.svg" /></span></button>
+          <div class="search-links hidden-sm-down">
+            <a class="search-link col-sm-2" href="#">NEW LISTINGS</a>
+            <a class="search-link col-sm-2" href="#">OPEN HOUSES</a>
+            <a class="search-link col-sm-2" href="#">MAP SEARCH</a>
+            </div>
+        </form>
+          
+        </ul>
+      </div>
+      </div>
+  <!-- End Search Bar/Nav -->
+
+  <!-- Start Hero Section -->
+  <div class="container-fluid bg-faded">
+    <div class="container hero">
+      <div class="row fix-gutter d-flex align-items-center">
+        <div class="col-xs-3 col-sm-4 col-lg-3">
+          <img class="img-fluid" src="./Assets/Realtor Image/saramortensun.jpg" />
+        </div>
+        <div class="container-fluid col-sm-4 col-lg-3">
+          <h1 class="mb-md-4">Jane Smith</h1>
+          <h4>Realtor</h4>
+          <button class="btn form-control btn-primary mt-md-4 mb-4">Contact Me</button>
+          <div class="text-center d-flex justify-content-between mt-md-4">
+            <img class="" src="Assets/SVGs/twitter.svg" />   
+            <img class="" src="Assets/SVGs/facebook.svg" />
+            <img class="" src="Assets/SVGs/instagram.svg" />
+            <img class="" src="Assets/SVGs/linkedin.svg" />
+            <img class="" src="Assets/SVGs/youtube.svg" />
           </div>
         </div>
+        <div class="contact-info col-sm-4 col-lg-3 mt-4">
+          <p><img class="mr-3" src="./Assets/SVGs/contact.svg" alt=""> 530.830.2150<br></p>
+          <p><img class="mr-2" src="./Assets/SVGs/website.svg" alt=""> Visit my website<br></p>
+          <p><img class="mr-2" src="./Assets/SVGs/office.svg" alt=""> Denver office<br></p>
+          <p><img class="mr-2" src="./Assets/SVGs/enewsletter.svg" alt="">  eNesletter Sign Up<br></p>
+        </div>
+      </div>
     </div>
-</div>
-<!-- End Hero Section -->
+  </div>
+  <!-- End Hero Section -->
 
-<!-- Start Body Content -->
-<div class="container-fluid">
+  <!-- Start Body Content -->
+  <div class="container-fluid">
     <div class="container mt-4">
-        <ul class="nav nav-tabs text-center">
-          <li class="col-md-3 mb-2"><a data-toggle="tab" href="#about-me">About Me</a></li>
+      <select class="selectpicker hidden-sm-up">
+        <option value="volvo" selected>About Me</option>
+        <option value="saab">My Listings</option>
+        <option value="vw">My Solds</option>
+        <option value="audi">Testimonials</option>
+      </select>
+        <ul class="nav nav-tabs text-center hidden-xs-down">
+          <li class="col-md-3 active"><a data-toggle="tab" href="#about-me">About Me</a></li>
           <li class="col-md-3"><a data-toggle="tab" href="#my-listings">My Listings</a></li>
           <li class="col-md-3"><a data-toggle="tab" href="#my-solds">My Solds</a></li>
           <li class="col-md-3"><a data-toggle="tab" href="#testimonials">Testimonials</a></li>
         </ul>
-    </div>
-    <div class="container">
+      </div>
+      <div class="container">
         <div class="row tab-content">
-          <div class="col-sm-9 mt-4 mb-4">
+          <div role="tabpanel" class="tab-pane active col-sm-9 mt-4" id="about-me">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum rerum velit magni, repellendus. Quos necessitatibus doloremque hic. Eius modi ipsum obcaecati ea asperiores quam odit dolorem est, veniam doloribus sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur provident, voluptatem mollitia perspiciatis dicta unde quaerat soluta impedit laboriosam odio exercitationem, perferendis possimus eligendi laborum sequi architecto molestias culpa iusto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium nobis vitae nemo eveniet tenetur esse blanditiis eum nostrum rem, quod quibusdam aliquam commodi reprehenderit vel at amet velit laudantium quia.</p>
-            </div>
+          </div>
           <div class="col-sm-3 mt-4 mb-4">
             <h5>LANGUAGE</h5>
-                    <p>Dutch, French, Spanish</p>
-                <h5>DESIGNATIONS</h5>
-                    <p>CRS, GRI, CNE</p>
+            <p>Dutch, French, Spanish</p>
+            <h5>DESIGNATIONS</h5>
+            <p>CRS, GRI, CNE</p>
           </div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- End Body Content -->
+    <!-- End Body Content -->
 
-<!-- Start Footer -->
-<div class="container-fluid bg-info">
-    <div class="container pb-2 pt-2">
+    <!-- Start Footer -->
+    <div class="container-fluid bg-primary footer">
+      <div class="container pb-2 pt-2">
         <div class="row">
-          <div class="col-sm-4">
-            <p class="text-center-xs"><img src="Assets/SVGs/contact.svg" />1-800-234-4567</br>5678 Main Street, Denver, CO 80123</p>
-                    <div class="text-center d-flex justify-content-between">
-                      <img src="./Assets/SVGs/facebook.svg" alt="">
-                      <img src="./Assets/SVGs/linkedin.svg" alt="">
-                      <img src="./Assets/SVGs/twitter.svg" alt="">
-                      <img src="./Assets/SVGs/youtube.svg" alt="">
-                      <img src="./Assets/SVGs/instagram.svg" alt="">
-                    </div>
+          <div class="col-sm-4 footer-contact">
+            <p class="text-center-xs pb-2 pt-4"><img src="Assets/SVGs/contact.svg" />1-800-234-4567</br>5678 Main Street, Denver, CO 80123</p>
+            <div class="text-center d-flex justify-content-between">
+              <img src="./Assets/SVGs/facebook.svg" alt="">
+              <img src="./Assets/SVGs/linkedin.svg" alt="">
+              <img src="./Assets/SVGs/twitter.svg" alt="">
+              <img src="./Assets/SVGs/youtube.svg" alt="">
+              <img src="./Assets/SVGs/instagram.svg" alt="">
+            </div>
           </div>
-          <div class="col float-right">
-            <p class="text-right">
-                <a href="#" class="mr-2">Site Map</a>
-                <a href="#" class="mr-2">Terms of Use</a>
-                <a href="#">Privacy Policy</a>
-                </br>2016 TEN Realty. All Rights Reserved.
-            </p>
-            <span class="float-right">
-                <img class="svg" src="Assets/SVGs/equal-housing.svg" />
-                <img class="svg" src="Assets/SVGs/realtor.svg" />
-            </span>
+          <div class="col float-right ">
+            <p class="text-right mt-4">
+              <a href="#" class="mr-2">Site Map</a>
+              <a href="#" class="mr-2">Terms of Use</a>
+              <a href="#">Privacy Policy</a>
+            </br>2016 TEN Realty. All Rights Reserved.
+          </p>
+          <div class="float-sm-right footer-logos mt-4">
+            <img class="pr-2" src="Assets/SVGs/realtor.svg" />
+            <img class="pl-2" src="Assets/SVGs/equal-housing.svg" />
           </div>
         </div>
+      </div>
     </div>
-</div>  
-<!-- End Footer -->
-
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </div>  
+  <!-- End Footer -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>

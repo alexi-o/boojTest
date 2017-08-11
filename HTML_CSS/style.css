@@ -7,11 +7,67 @@ li {
 	font-size: .9rem;
 }
 
-footer {
-	background-color: blue;
+
+select {
+	width: 100%;
+	height: 50px;
+	text-align: center;
 }
 
-footer a {
+.nav-tabs { 
+	border-bottom: 2px solid #DDD; 
+}
+
+.nav-tabs li a { 
+	border: none; color: grey; 
+}
+
+.nav-tabs li.active a, .nav-tabs li a:hover { 
+	color: #4285F4;
+	text-decoration: none;
+}
+
+.nav-tabs li a::after { 
+	content: ""; 
+	background: #4285F4; 
+	height: 2px; 
+	position: absolute; 
+	width: 100%; 
+	left: 0px; 
+	bottom: -1px; 
+	transition: all 400ms ease 0s; 
+	transform: scale(0); 
+}
+
+.nav-tabs li.active a::after, .nav-tabs li:hover a::after { 
+	transform: scale(1); 
+}
+
+.tab-pane { 
+	padding: 15px 0; 
+}
+
+.tab-content{
+	padding:20px
+}
+
+.nav-tabs li {
+	font-size: 20px;
+}
+
+.hero {
+	font-color: blue;
+}
+
+.footer {
+	color: white;
+}
+
+.footer img {
+	fill: white;
+}
+
+.footer a {
 	text-decoration: underline;
 }
 
@@ -27,12 +83,6 @@ button {
   margin: auto 0;
 }
 
-.form-fix {
-	left: -30px;
-}
-h1 {
-    font-size: 1rem;
-}
 
 ::-webkit-input-placeholder {
    font-size: 21px;
@@ -57,27 +107,29 @@ h1 {
       font-size: 13px!important;
 }
 
-@media (min-width: 400px) {
-    html { 
-    	font-size: 4vw; 
-    }
+@media (max-width: 459px) {
+	.footer-contact p {
+		text-align: center;
 }
-
-@media (min-width: 600px) {
-    html { 
-    	font-size: 2.3vw; 
-    }
+	.footer-logos {
+		position: relative;
+		text-align: center;
 }
-
-@media (min-width: 1000px) {
-    html { 
-    	font-size: 1.9vw; 
-    }
+	.form-control {
+		width: 70%;
+		border-radius: 20px 0 0 20px;
+	}
+	.btn {
+		width: 30%;
+		border-radius: 0 20px 20px 0;
+		padding: 7px;
+	}
 }
 
 @media (min-width: 787px) {
 	.fix-gutter > [class*='col-'] {
-    padding-right: 0;
+    padding-right: 1;
     padding-left: 1;
 	}
 }
+
